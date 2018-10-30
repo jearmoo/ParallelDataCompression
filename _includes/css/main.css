@@ -257,6 +257,34 @@ nav ul li:hover, nav ul li.active {
 .longlist { font-size: 14px !important; }
 .longlist li { margin-bottom: 3px; }
 
+.schedule {
+  font-size: 17px;
+  margin: 0 auto;
+}
+
+.schedule table {
+  border-collapse: separate;
+  border-spacing: 50px 0;
+}
+
+.schedule th {
+  padding: 8px 10px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+.schedule td {
+  padding: 8px 10px;
+  border: 2px solid white;
+}
+
+.schedule td:first-child {
+  width: 180px;
+}
+
+.schedule td:last-child {
+  text-align: left;
+}
 
 
 /* ----- fork on github banner ----- */
